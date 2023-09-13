@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Home } from "./components/Layouts/Home/Home";
 import './App.css'
 import NotFound from './components/NotFound';
-import { Usuario } from './components/NavBar/Useref';
+import { Usuario } from './components/navbar/Usuario';
 import { Routes, Route } from 'react-router-dom'
 import { Proyectos } from './Proyectos';
 import { Contactame } from './components/Contactame';
