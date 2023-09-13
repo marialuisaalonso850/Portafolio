@@ -1,5 +1,5 @@
 
-import Contenido from "../../../contenido";
+import Contenido from "../../../Contenido";
 import { Header } from "../../Header/Header";
 
 

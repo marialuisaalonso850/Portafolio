@@ -1,9 +1,9 @@
 import { useState } from 'react'
+import { Routes, Route } from 'react-router-dom'
 import { Home } from "./components/Layouts/Home/Home";
 import './App.css'
 import NotFound from './components/NotFound';
 import { Usuario } from './components/navbar/Usuario';
-import { Routes, Route } from 'react-router-dom'
 import { Proyectos } from './Proyectos';
 import { Contactame } from './components/Contactame';
 import { Producto } from './components/marketPlace/producto.jsx';
