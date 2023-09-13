@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Home } from "./components/Layouts/Home/Home";
 import './App.css'
 import NotFound from './components/NotFound';
-import {Useref} from './components/NavBar/Useref';
+import { Usuario } from './components/NavBar/Useref';
 import { Routes, Route } from 'react-router-dom'
 import { Proyectos } from './Proyectos';
 import { Contactame } from './components/Contactame';
@@ -31,7 +31,7 @@ import { Producto } from './components/marketPlace/producto.jsx';
       </button>
      <Routes>
       <Route path="/" element={<Home/>}/>
-      <Route path="/Useref" element={<Useref/>}/>
+      <Route path="/Useref" element={<Usuario/>}/>
       <Route path="/Proyectos" element={<Proyectos/>}/>
       <Route path="/Contactame" element={<Contactame/>}/>
       <Route path="*" element={<NotFound/>}/>

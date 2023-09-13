@@ -3,7 +3,7 @@ import { Header } from '../Header/Header'
 import { Footer } from '../../Footer'
 
 
-export const Useref = () => {
+export const Usuario = () => {
   return (
     <div>
         <Header/>
