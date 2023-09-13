@@ -169,8 +169,30 @@ button:focus-visible {
   margin-left: -300;
 }
 
-/* Estilos para tabletas y pantallas medianas */
-@media (min-width: 768px) {
+@media (max-width: 575px) {
+  .malu {
+    margin-left: 0;
+  }
+
+  .logo {
+    height: 4em;
+  }
+
+  #imgLuisa {
+    margin-left: 60px;
+    width: 80%;
+    margin-top: 20px;
+    height: 40%;
+  }.studies{
+margin-left: 5px;
+width: 100%;
+  }.sena{
+    margin-left: 190px;
+  }
+}
+
+/* Estilos para tablets y pantallas medianas */
+@media (min-width: 576px) and (max-width: 991px) {
   .portfolio {
     align-items: center;
   }
@@ -184,6 +206,47 @@ button:focus-visible {
   }
 }
 
-.parf1{
-  margin-bottom: 40px;
+/* Estilos para pantallas grandes */
+@media (min-width: 992px) {
+  .major {
+    width: 1500px;
+    background-color: #424242;
+    display: flex;
+    margin-top: 20px;
+    height: 300px;
+    margin-left: 10px;
+  }
+
+  .part3 {
+    display: flex;
+    width: 2000px;
+    flex-direction: row;
+  }
+
+  .studies {
+    color: #1a1a1a;
+    height: 250px;
+    background-color: #ccc;
+    justify-content: center;
+    width: 800px;
+    margin-left: 350px;
+    margin-bottom: 50px;
+    border: 10px solid rgba(142, 104, 78, 0.823);
+  }
+
+  .ti2 {
+    margin-left: -300;
+  }
+}
+
+/* Otros estilos específicos aquí */
+
+/* Consulta de medios para condiciones adicionales */
+@media (min-width: 1200px) {
+  /* Estilos adicionales para pantallas aún más grandes */
+}
+
+/* Consulta de medios para condiciones adicionales */
+@media (min-width: 1600px) {
+  /* Estilos adicionales para pantallas muy grandes */
 }
