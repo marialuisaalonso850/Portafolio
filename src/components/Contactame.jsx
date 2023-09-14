@@ -10,7 +10,7 @@ export const Contactame = () => {
    <div>   
    <h1 className='text-lg my-6 text-neutral-500'>Mis redes Sociales son :  </h1>
    <div class="flex items-center my-12 mx-10 text-neutral-500">
-  <img class="w-10 h-10 rounded-full mr-4" src="./public/ins2.jpg" alt="" />
+  <img class="w-10 h-10 rounded-full mr-4" src="./public/img/ins2.png" alt="" />
   <h1 class="text-xl font-bold text-neutral-500">Instagram: marialu3425</h1>
 </div>
 <div class="flex items-center my-12 mx-10 text-neutral-500">
