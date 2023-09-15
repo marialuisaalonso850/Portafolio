@@ -188,6 +188,14 @@ margin-left: 5px;
 width: 100%;
   }.sena{
     margin-left: 190px;
+  }.major{
+  width: 100%;
+  }.parte3{
+    width: 50%;
+    height: 60%;
+    font-size: 10px;
+  }.img1{
+    width: 60%;
   }
 }
 
